@@ -1,0 +1,5 @@
+# Use the official n8n image
+FROM n8nio/n8n:latest
+
+# No extra steps needed; n8n reads configuration from environment variables.
+# Railway will provide PORT, so n8n will bind to that automatically (PORT is supported).
